@@ -47,7 +47,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(png|jpg|gif)$/,
+                test: /\.(png|jpg|gif|webp|ico)$/,
                 use: [
                     {
                         loader: 'url-loader',
@@ -68,7 +68,8 @@ module.exports = {
     plugins: [
         new webpack.BannerPlugin(`最终版权归 cemcoe 所有\n由 webpack.BannerPlugin 生成`),
         new HtmlWebpackPlugin({
-            template: 'index.html'
+            template: 'index.html',
+            favicon: './favicon.ico'
         }),
         // new UglifyJsPlugin()
     ]
