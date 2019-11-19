@@ -1,11 +1,13 @@
 const path = require('path')
+const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js'
-
     },
     module: {
         rules: [
@@ -44,7 +46,30 @@ module.exports = {
                     }
                 }
             },
+            {
+                test: /\.(png|jpg|gif)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        // 当加载的图片小于limit时，将图片编译成base64
+                        // 当加载图片过大时，file-loader
+                        options: {
+                            // limit: 8192,
+                            // name: 'img/[name].[hash:8].[ext]'
+                            // 对输出的图片进行命名
+                            // 保存在img文件夹下，原来的名字+hash取8位+原来的扩展名
+                        },
+                    },
+                ],
+            },
 
         ]
-    }
+    },
+    plugins: [
+        new webpack.BannerPlugin(`最终版权归 cemcoe 所有\n由 webpack.BannerPlugin 生成`),
+        new HtmlWebpackPlugin({
+            template: 'index.html'
+        }),
+        // new UglifyJsPlugin()
+    ]
 }

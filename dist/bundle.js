@@ -1,3 +1,7 @@
+/*!
+ * 最终版权归 cemcoe 所有
+ * 由 webpack.BannerPlugin 生成
+ */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
