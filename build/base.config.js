@@ -1,12 +1,10 @@
 const path = require('path')
-const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
     entry: './src/main.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '../dist'),
         filename: 'bundle.js'
     },
     module: {
@@ -47,7 +45,7 @@ module.exports = {
                 }
             },
             {
-                test: /\.(png|jpg|gif|webp|ico)$/,
+                test: /\.(png|jpg|gif|webp)$/,
                 use: [
                     {
                         loader: 'url-loader',
@@ -66,11 +64,9 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.BannerPlugin(`最终版权归 cemcoe 所有\n由 webpack.BannerPlugin 生成`),
         new HtmlWebpackPlugin({
             template: 'index.html',
             favicon: './favicon.ico'
         }),
-        // new UglifyJsPlugin()
     ]
 }

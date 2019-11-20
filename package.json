@@ -5,7 +5,8 @@
   "main": "sw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --config ./build/prod.config.js",
+    "dev": "webpack --config ./build/dev.config.js"
   },
   "author": "cemcoe",
   "license": "ISC",
@@ -20,7 +21,8 @@
     "less-loader": "^5.0.0",
     "style-loader": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.1.1",
-    "url-loader": "^2.2.0"
+    "url-loader": "^2.2.0",
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "webpack": "^3.6.0"
