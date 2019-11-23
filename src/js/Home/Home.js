@@ -1,8 +1,8 @@
-import { header } from "./header.js"
-import { mingzhan } from "./mingzhan.js"
-import { coolzhan } from "./coolzhan.js"
-import { explorezhan } from "./explorezhan.js"
-import { siteinfo } from "./siteinfo.js"
+import { header } from "./components/header.js"
+import { mingzhan } from "./components/mingzhan.js"
+import { coolzhan } from "./components/coolzhan.js"
+import { explorezhan } from "./components/explorezhan.js"
+import { siteinfo } from "./components/siteinfo.js"
 
 const Home = {
     header,
