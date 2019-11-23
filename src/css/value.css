@@ -7,8 +7,16 @@
 
 
 /* Text and background color for dark mode */
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
       --main-color: #000;
+      --main-pink-color: rgb(34, 32, 32);
+      --main-deep-color: #000;
+
     }
-} */
+    * {
+      color: #fff;
+    }
+
+    }
+    
