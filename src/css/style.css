@@ -1,66 +1,16 @@
-/* reset begin */
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-  color: #000;
-  font-size: 14px;
-  text-align: center;
-}
-li {
-  list-style: none;
-}
-a:hover {
-  opacity: .6;
-}
-
-/* h2 reset*/
-h2 {
-  margin: 66px auto 12px;
-  font-weight: 700;
-  /* border-top: 6px solid #5011e4; */
-  border-top: 6px solid rgb(8, 213, 240);
-  width: 120px;
-  height: 36px;
-  border-radius: 2px;
-  background-color: #f0ecec;
-  border-radius: 12px;
-  box-shadow: 1px 1px 1px #d48282;
-  font-size: 16px;
-  display: block;
-  /* width: 100%;
-  height: 100%; */
-  line-height: 36px;
-  color: rgb(12, 1, 8);
-  letter-spacing: 4px;
-  text-align: center;
-}
-
-h2 a:target {
-  color: #f40;
-}
-/* h2 reset end*/
-
-/* reset end*/
+@import "./reset.css";
+@import "./value.css";
 
 
-
-
-/* 默认手机 css*/
 /* body begin */
 body {
-  /* background-color: #f0ecec; */
+  background-color: var(--main-color);
   max-width: 600px;
   min-width: 300px;
   margin: 0 auto;
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
 }
-
-
-
 
 /* loadings begin */
 .loadings {
@@ -110,7 +60,6 @@ body {
 header {
   width: 100%;
   height: 36px;
-  
 }
 header a {
   display: block;
@@ -119,10 +68,10 @@ header a {
   height: 36px;
   position: fixed;
   line-height: 36px;
-  background-color: rgb(222, 214, 224);
+  background-color: var(--main-color);
   text-shadow: 1px 2px 3px #e3dbdb;
+  box-shadow: 0px 1px 1px var(--main-deep-color);
   color: #b32aa9;
-  box-shadow: 1px 1px 1px #d48282;
   animation: run 3s;
   -webkit-animation: run 3s; /* Safari 和 Chrome */
   z-index: 233;
@@ -141,11 +90,11 @@ header a {
 
 /* mingzhan begin */
 .mingzhan {
-  border: 12px solid #5011e4;
+  border: 12px solid var(--main-deep-color);
   border-radius: 4px;
   margin-top: 12px;
   box-shadow: 1px 1px 3px #000;
-  background-color: #f0ecec;
+  background-color: var(--main-deep-color);
 }
 .mingzhan ul {
   width: 100%;
@@ -197,79 +146,15 @@ header a {
   display:inline-block;
   width:100%;
   height:100%;
-  background-color: #f0ecec;
+  background-color: var(--main-pink-color);
 
   /* color: rgb(241, 238, 245); */
 }
 /* cool end */
 
-/* front-end */
-.front-end {
-  width: 98%;
-  /* background-color: #000; */
-  margin: 0 auto;
-}
-
-.front-end ul {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  /* border: 1px solid #000;
-  box-sizing: content-box; */
-
-}
-.front-end ul li {
-  border-radius: 2px;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
-  height: 60px;
-  width: 49.8%;
-  margin-bottom: 4px;
-  line-height: 60px;
-  box-shadow: 2px 2px 2px rgb(255, 255, 255),
-  -2px -2px 2px rgb(255, 255, 255);
-  /* box-sizing: border-box;
-  border-bottom: 1px solid #000; */
-}
-
-.front-end li a {
-  display:inline-block;
-  width:100%;
-  height:100%;
-  background-color: #f0ecec;
-  
-  /* color: rgb(241, 238, 245); */
-  /* box-shadow: 1px 1px 1px rgb(77, 5, 247); */
-}
-
-
-
-/* 
-
-.explore li {
-  display: inline-block;
-  margin: 12px 2px;
-
-}
-.explore a {
-  border: 1px solid rgb(241, 235, 235);
-  padding: 12px;
-  background-color: rgb(46, 25, 238);
-  color: rgb(247, 242, 242);
-  border-radius: 6%;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  
-} */
-/**/
-
-
-
-
 .explore li {
   height: 50px;
-  background-color: rgb(238, 229, 229);
+  background-color: var(--main-pink-color);
   /* margin-bottom: 4px; */
   overflow: hidden;
   width: 98%;
@@ -282,20 +167,6 @@ header a {
 .wrapper {
   display: flex;
 }
-
-.explore li .link-img {
-  /* box-sizing: border-box; */
-  background-color: #fff;
-  width: 50px;
-  height: 50px;
-  /* padding: 4px; */
-}
-
-.link-img img {
-  width: 50px;
-  height: 50px;
-}
-
 .wrapper-right {
   padding-left: 4px;
   line-height: 50px;
@@ -308,7 +179,7 @@ footer {
   text-align: center;
   width: 100%;
   border-radius: 0px;
-  background:rgba(12, 12, 12, .9);
+  background:var(--main-deep-color);
 }
 footer p {
   line-height: 24px;
@@ -323,6 +194,8 @@ footer a {
   font-size: 12px;
   
 }
+
+
 
 
 

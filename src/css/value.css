@@ -1,0 +1,14 @@
+/* value */ 
+:root {
+    --main-color: rgb(222, 222, 222);
+    --main-deep-color: rgb(197, 167, 167);
+    --main-pink-color: rgb(238, 229, 229);
+}
+
+
+/* Text and background color for dark mode */
+/* @media (prefers-color-scheme: dark) {
+    :root {
+      --main-color: #000;
+    }
+} */
