@@ -35,9 +35,9 @@ const mingZhanList = [
         "name": "readhub"
     },
     {
-        "url": "https://hackforums.net/index.php",
+        "url": "http://bbsah.com/",
         "title": "Hack Forums is the ultimate security technology and social media forum",
-        "name": "hackforums"
+        "name": "论爱"
     },
     {
         "url": "http://mail.google.com/",
@@ -65,9 +65,9 @@ const mingZhanList = [
         "name": "reddit"
     },
     {
-        "url": "http://ourcoders.com/",
+        "url": "https://www.vxinsave.com/",
         "title": "this is def title",
-        "name": "coders"
+        "name": "Ig助手"
     },
     {
         "url": "https://www.quora.com/",

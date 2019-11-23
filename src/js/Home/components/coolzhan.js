@@ -5,11 +5,11 @@ const CoolZhanListFirst = [{
     url: "https://bbs.kafan.cn",
     name: "卡饭"
 }, {
-    url: "https://bbs.pediy.com",
-    name: "看雪"
+    url: "https://just998.com/baicai/meishi",
+    name: "美食"
 }, {
-    url: "http://www.chinapyg.com",
-    name: "飘云"
+    url: "https://www.mgtv.com/",
+    name: "芒果"
 }]
 
 const CoolZhanListSecond = [{
@@ -23,14 +23,14 @@ const CoolZhanListSecond = [{
     url: "https://www.okzy.co/?m=vod-type-id-3.html",
     name: "ok"
 }, {
-    url: "https://0x00sec.org/",
+    url: "https://e-hentai.org/",
     title: "The Home of the Hacker - Malware, Reverse Engineering, and Computer Science",
-    name: "0x00sec"
+    name: "E站"
 }]
 
 const CoolZhanListThird = [{
-    url: "https://www.taptap.com/",
-    name: "Tab"
+    url: "https://www.pixiv.net/",
+    name: "P站"
 }, {
     url: "https://right.com.cn/FORUM/forum.php",
     name: "恩山"
