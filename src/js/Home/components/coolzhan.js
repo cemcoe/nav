@@ -2,20 +2,19 @@ const CoolZhanListFirst = [{
     url: "https://www.dcard.tw/f",
     name: "Dcard"
 }, {
-    url: "https://bbs.kafan.cn",
-    name: "卡饭"
+    url: "https://aotu.io/cates/Web%E5%BC%80%E5%8F%91/index.html",
+    name: "aoto"
 }, {
-    url: "https://just998.com/baicai/meishi",
-    name: "美食"
+    url: "https://learn.co/tracks/bootcamp-prep-v2",
+    name: "prep"
 }, {
-    url: "https://www.mgtv.com/",
-    name: "芒果"
+    url: "https://magi.com/",
+    name: "magi"
 }]
 
 const CoolZhanListSecond = [{
-    url: "http://www.shouxb.com/",
-    title: "86",
-    name: "86"
+    url: "https://m.weibo.cn/",
+    name: "weibo"
 }, {
     url: "https://stackoverflow.com/",
     name: "SF"
@@ -23,17 +22,17 @@ const CoolZhanListSecond = [{
     url: "https://www.okzy.co/?m=vod-type-id-3.html",
     name: "ok"
 }, {
-    url: "https://e-hentai.org/",
+    url: "https://www.freecodecamp.org/",
     title: "The Home of the Hacker - Malware, Reverse Engineering, and Computer Science",
-    name: "E站"
+    name: "camp"
 }]
 
 const CoolZhanListThird = [{
-    url: "https://www.pixiv.net/",
-    name: "P站"
+    url: "https://learn-anything.xyz/",
+    name: "anything"
 }, {
-    url: "https://right.com.cn/FORUM/forum.php",
-    name: "恩山"
+    url: "https://bbs.nga.cn/",
+    name: "Nga"
 }, {
     url: "https://qiita.com/",
     name: "Qiita"

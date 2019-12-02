@@ -14,9 +14,10 @@ const exploreZhan = [{
     url: "https://www.sigure.tw/",
     title: "時雨の町 | 日文學習園地",
 }, {
-    url: "http://www.sssoou.com/",
-    title: "telegram频道搜索",
+    url: "https://v.jlszyy.org/",
+    title: "达达兔电影网",
 }]
+
 
 const explorezhan = new Vue({
     el: "#exploreZhan",

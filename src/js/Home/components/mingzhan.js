@@ -65,9 +65,9 @@ const mingZhanList = [
         "name": "reddit"
     },
     {
-        "url": "https://www.vxinsave.com/",
+        "url": "https://www.shiyanlou.com/mobile/user",
         "title": "this is def title",
-        "name": "Ig助手"
+        "name": "实验"
     },
     {
         "url": "https://www.quora.com/",
