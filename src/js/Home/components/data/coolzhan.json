@@ -1,0 +1,56 @@
+{
+    "CoolZhanListFirst": [
+        {
+            "url": "https://www.dcard.tw/f",
+            "name": "dcard"
+        },
+        {
+            "url": "https://aotu.io/cates/Web%E5%BC%80%E5%8F%91/index.html",
+            "name": "凹凸"
+        },
+        {
+            "url": "https://hacpai.com/",
+            "name": "黑派"
+        },
+        {
+            "url": "https://magi.com/",
+            "name": "magi"
+        }
+    ],
+    "CoolZhanListSecond": [
+        {
+            "url": "https://m.weibo.cn/",
+            "name": "weibo"
+        },
+        {
+            "url": "https://stackoverflow.com/",
+            "name": "SF"
+        },
+        {
+            "url": "https://www.okzy.co/?m=vod-type-id-3.html",
+            "name": "ok"
+        },
+        {
+            "url": "https://www.freecodecamp.org/",
+            "name": "codecamp"
+        }
+    ],
+    "CoolZhanListThird": [
+        {
+            "url": "https://learn-anything.xyz/",
+            "name": "anything"
+        },
+        {
+            "url": "https://bbs.nga.cn/",
+            "name": "nga"
+        },
+        {
+            "url": "https://qiita.com/",
+            "name": "qiita"
+        },
+        {
+            "url": "https://learn.co/tracks/bootcamp-prep-v2",
+            "name": "prep"
+        }
+    ]
+}
