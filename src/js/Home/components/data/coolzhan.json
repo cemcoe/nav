@@ -1,16 +1,16 @@
 {
     "CoolZhanListFirst": [
         {
-            "url": "https://www.dcard.tw/f",
-            "name": "dcard"
+            "url": "https://www.zhangxinxu.com/",
+            "name": "三金"
         },
         {
-            "url": "https://aotu.io/cates/Web%E5%BC%80%E5%8F%91/index.html",
-            "name": "凹凸"
+            "url": "https://bbs.nga.cn/thread.php?fid=-202020",
+            "name": "nga"
         },
         {
-            "url": "https://hacpai.com/",
-            "name": "黑派"
+            "url": "https://qiita.com/",
+            "name": "qiita"
         },
         {
             "url": "https://magi.com/",
@@ -32,25 +32,25 @@
         },
         {
             "url": "https://www.freecodecamp.org/",
-            "name": "codecamp"
+            "name": "#"
         }
     ],
     "CoolZhanListThird": [
         {
             "url": "https://learn-anything.xyz/",
-            "name": "anything"
+            "name": "#"
         },
         {
-            "url": "https://bbs.nga.cn/",
-            "name": "nga"
+            "url": "https://bbs.nga.cn/thread.php?fid=-202020",
+            "name": "#"
         },
         {
             "url": "https://qiita.com/",
-            "name": "qiita"
+            "name": "#"
         },
         {
             "url": "https://learn.co/tracks/bootcamp-prep-v2",
-            "name": "prep"
+            "name": "#"
         }
     ]
 }
