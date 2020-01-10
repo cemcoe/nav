@@ -31,26 +31,26 @@
             "name": "ok"
         },
         {
-            "url": "https://www.freecodecamp.org/",
-            "name": "#"
+            "url": "https://www.xj.hk/",
+            "name": "星际"
         }
     ],
     "CoolZhanListThird": [
         {
-            "url": "https://learn-anything.xyz/",
-            "name": "#"
+            "url": "https://www.smashingmagazine.com/articles/",
+            "name": "SA"
         },
         {
-            "url": "https://bbs.nga.cn/thread.php?fid=-202020",
-            "name": "#"
+            "url": "https://www.zdnet.com/",
+            "name": "ZD"
         },
         {
-            "url": "https://qiita.com/",
-            "name": "#"
+            "url": "https://edition.cnn.com/business/tech",
+            "name": "cnntech"
         },
         {
-            "url": "https://learn.co/tracks/bootcamp-prep-v2",
-            "name": "#"
+            "url": "https://dev.to/",
+            "name": "dev"
         }
     ]
 }
