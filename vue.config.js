@@ -2,7 +2,8 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        'network': '@/network'
+        'network': '@/network',
+        'components': '@/components'
       }
     }
   }
