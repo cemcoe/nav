@@ -4,12 +4,14 @@
       <div slot="center">Hello Chemcode</div>
     </nav-bar>
     <ming-zhan :mingzhan="mingzhan"></ming-zhan>
+    <cool-zhan :coolzhan="coolzhan"></cool-zhan>
   </div>
 </template>
 
 <script>
 import NavBar from "components/common/navbar/NavBar";
 import MingZhan from "./childComps/MingZhan"
+import CoolZhan from "./childComps/CoolZhan"
 
 import { getHomeMultidata } from "network/home";
 
@@ -17,12 +19,14 @@ export default {
   name: "Home",
   data() {
     return {
-      mingzhan: []
+      mingzhan: [],
+      coolzhan: []
     };
   },
   components: {
     NavBar,
-    MingZhan
+    MingZhan,
+    CoolZhan
   },
   created() {
     this.getHomeMultidata();
@@ -32,6 +36,7 @@ export default {
       getHomeMultidata().then(res => {
         console.log(res.data.mingzhan);
         this.mingzhan = res.data.mingzhan;
+        this.coolzhan = res.data.coolzhan
       });
     }
   }
