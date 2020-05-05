@@ -1,15 +1,13 @@
 <template>
   <div id="home">
-    <nav-bar>
-      <div slot="center">Hello Chemcode</div>
-    </nav-bar>
-    <ming-zhan :mingzhan="mingzhan"></ming-zhan>
-    <cool-zhan :coolzhan="coolzhan"></cool-zhan>
+    <main-nav-bar />
+    <ming-zhan :mingzhan="mingzhan" />
+    <cool-zhan :coolzhan="coolzhan" />
   </div>
 </template>
 
 <script>
-import NavBar from "components/common/navbar/NavBar";
+import MainNavBar from './childComps/MainNavBar'
 import MingZhan from "./childComps/MingZhan"
 import CoolZhan from "./childComps/CoolZhan"
 
@@ -24,7 +22,7 @@ export default {
     };
   },
   components: {
-    NavBar,
+    MainNavBar,
     MingZhan,
     CoolZhan
   },

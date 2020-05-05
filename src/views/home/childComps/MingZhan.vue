@@ -33,17 +33,20 @@ export default {
   flex: 0 0 20%;
   box-sizing: content-box;
   text-align: center;
-  height: 60px;
+  height: 46px;
   box-sizing: border-box;
 }
 .mingzhan li:nth-of-type(2n) {
   background-color: rgb(231, 221, 219);
+  /* border: 1px solid blue; */
+  box-shadow: inset -1px -1px 3px rgb(128, 151, 156),
+  inset 1px 1px 3px rgb(247, 251, 252);
 }
 .mingzhan li a {
   color: rgb(3, 3, 3);
   display: block;
   width: 100%;
   height: 100%;
-  line-height: 60px;
+  line-height: 46px;
 }
 </style>
