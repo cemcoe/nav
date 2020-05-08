@@ -23,6 +23,10 @@ export default {
 </script>
 
 <style scoped>
+.mingzhan {
+  margin: 20px 4px;
+  box-shadow: 0px 0px 10px rgb(238, 235, 235);
+}
 .mingzhan ul {
   display: flex;
   flex-wrap: wrap;

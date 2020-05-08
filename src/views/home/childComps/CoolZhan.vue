@@ -1,6 +1,6 @@
 <template>
   <div class="coolzhan">
-    <div class="info">coolzhan</div>
+    <div class="info">酷站</div>
     <ul>
       <li v-for="(item, index) in coolzhan"
       :key="index"><a :href="item.url">
@@ -26,16 +26,25 @@ export default {
 
 <style scoped>
 .coolzhan {
-  margin-top: 20px;
-  background-color: rgb(241, 231, 231);
+  margin: 20px 8px;
+
+  box-shadow: 0px 0px 10px rgb(231, 218, 218);
+}
+.coolzhan .info {
+  width: 120px;
+  padding: 2px;
+  font-size: 12px;
+  color: rgb(37, 35, 35);
+  background-color: rgb(236, 222, 222);
+  text-align: center;
 }
 .coolzhan li {
-  background-color: rgb(5, 40, 236);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   margin-bottom: 6px;
 }
 .coolzhan li a {
-  color: aliceblue;
+  color: #000;
 }
 
 </style>
