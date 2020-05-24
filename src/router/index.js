@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 const Home = () => import('../views/home/Home.vue')
 const Search = () => import('../views/search/Search.vue')
+const Archive = () => import('../views/archive/Archive.vue')
 const Seeting = () => import('../views/seeting/Seeting.vue')
 
 Vue.use(VueRouter)
@@ -20,6 +21,11 @@ const routes = [
     path: '/search',
     name: 'Search',
     component: Search
+  },
+  {
+    path: '/archive',
+    name: 'Archive',
+    component: Archive
   },
   {
     path: '/seeting',
