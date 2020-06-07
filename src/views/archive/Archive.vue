@@ -1,5 +1,6 @@
 <template>
   <div>
+    <loading v-show="isLoading"></loading>
     <ul>
       <li v-for="(item, index) in list" :key="item.text">
         <span>{{index}} - </span>
@@ -10,16 +11,24 @@
 </template>
 
 <script>
+import Loading from '@/components/common/Loading'
 import { getArchive } from "network/archive.js";
 export default {
   name: "Archive",
   data() {
     return {
-      list: []
+      list: [],
+      isLoading: true
     };
   },
+  components: {
+    Loading,
+  },
   created() {
-    getArchive().then(res => (this.list = res.data.list));
+    getArchive().then(res => {
+      this.list = res.data.list
+      this.isLoading = false
+    });
   }
 };
 </script>
